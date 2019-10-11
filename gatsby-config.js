@@ -25,5 +25,11 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/'}]
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'process.env.GATSBY_GA_ID'
+      },
+    },
   ],
 }
