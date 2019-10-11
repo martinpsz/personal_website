@@ -11,7 +11,7 @@ const SEO = () => (
                     siteMetadata {
                         title
                         description 
-                        url
+                        siteUrl
                     }
                 }
             }
@@ -23,7 +23,7 @@ const SEO = () => (
                         lang: "en"
                     }}>
                 <meta name="description" content={data.site.siteMetadata.description}/>
-                <link rel="canonical" url={data.site.siteMetadata.url}/>
+                <link rel="canonical" url={data.site.siteMetadata.siteUrl}/>
             </Helmet>
             
         }

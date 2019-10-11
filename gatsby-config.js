@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Martin Pszczola | Developer",
     description: "This is Martin Pszczola's web development portfolio. If you need help with a web project or would like me to join your team, you can contact me via this website.",
-    url: "www.martinpszczola.com",
+    siteUrl: "www.martinpszczola.com",
 
   },
   plugins: [
