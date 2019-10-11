@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Martin Pszczola | Developer",
     description: "This is Martin Pszczola's web development portfolio. If you need help with a web project or would like me to join your team, you can contact me via this website.",
-    siteUrl: "www.martinpszczola.com",
+    siteUrl: "https://www.martinpszczola.com",
 
   },
   plugins: [
@@ -22,7 +22,6 @@ module.exports = {
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
-        host: 'https://www.martinpszczola.com',
         policy: [{ userAgent: '*', allow: '/'}]
       }
     },
