@@ -10,7 +10,7 @@ export default () => {
         justifyContent: 'center',
         alignItems: 'center',
         height: '100vh',
-        background: 'var(--Orange)',
+        background: 'var(--Blue)',
         color: 'var(--White)',
     }
 
