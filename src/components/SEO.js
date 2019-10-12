@@ -18,14 +18,14 @@ const SEO = () => (
         `}
 
         render={data =>
-            <Helmet title={data.site.siteMetadata.title}
+                <Helmet title={data.site.siteMetadata.title}
                     htmlAttributes={{
                         lang: "en"
                     }}>
-                <meta name="description" content={data.site.siteMetadata.description}/>
-                <link rel="canonical" url={data.site.siteMetadata.siteUrl}/>
-            </Helmet>
-            
+                    <meta name="description" content={data.site.siteMetadata.description}/>
+                    <link rel="canonical" url={data.site.siteMetadata.siteUrl}/>
+                </Helmet>
+                
         }
     
     />
