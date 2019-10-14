@@ -70,5 +70,9 @@ yarn-error.log
 
 .env.production
 .env.development
+<<<<<<< HEAD
 # Local Netlify folder
+=======
+
+>>>>>>> development
 .netlify
