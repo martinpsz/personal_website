@@ -1,1 +1,1 @@
-This branch holds the code behind www.martinpszczola.com. This site is a Gatsby JS static site. I make use of React JS and Bootstrap 4.
+This branch holds the code behind www.martinpszczola.com. This site is a Gatsby JS static site. I make use of React JS but avoid using any other frameworks and libraries directly.  
