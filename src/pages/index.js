@@ -1,6 +1,6 @@
 import React, {Fragment} from "react";
-import SEO from '../components/SEO';
-
+import Head from '../components/Head';
+import Body from '../components/Body';
 
 
 
@@ -9,8 +9,8 @@ export default () => {
 
     return(
         <Fragment>
-            <SEO/>
-            
+            <Head/>
+            <Body/>
         </Fragment>
 
 

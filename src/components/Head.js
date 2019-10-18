@@ -3,7 +3,7 @@ import {Helmet} from 'react-helmet'
 import PropTypes from "prop-types"
 import {StaticQuery, graphql} from "gatsby"
 
-const SEO = () => (
+const Head = () => (
     <StaticQuery 
         query={graphql`
             query SEO {
@@ -31,16 +31,16 @@ const SEO = () => (
     />
 )
 
-export default SEO
+export default Head
 
 
-SEO.prototypes = {
+Head.prototypes = {
     title: PropTypes.string,
     description: PropTypes.string,
     url: PropTypes.string
 }
 
-SEO.defaultProps = {
+Head.defaultProps = {
     title: null,
     description: null,
     url: null

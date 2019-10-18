@@ -18,57 +18,34 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 700;
 }
 
-p, a, small{
+p, a, small, button{
     font-family: var(--Raleway);
 }
 
 /* CSS Mini Reset */
 
-html,
-body,
-div,
-form,
-fieldset,
-legend,
-caption,
-label,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre
-{
-    font-size: 100%;
-    font-weight: normal;
+html{
+    box-sizing: border-box;
+}
 
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html,
+body{
     margin: 0;
     padding: 0;
-
-    vertical-align: baseline;
-
-    border: 0;
-    outline: 0;
-    background: transparent;
+    height: 100%;
 }
 
-table
-{
-    border-spacing: 0;
-    border-collapse: collapse;
+
+/*This is so I can place the footer at the bottom of the landing
+page and keep the nav bar sticky*/
+#___gatsby, #gatsby-focus-wrapper{
+    height: inherit;   
 }
 
-th,
-td
-{
-    text-align: left;
-    vertical-align: top;
-}
-
-img
-{
-    border: 0;
+#___gatsby{
+    position: relative;
 }
