@@ -7,7 +7,9 @@ export const Footer = (props) => {
     return(
         <StyledFooter>
             <small>&copy; {date.getFullYear()} {props.brand} All Rights Reserved. </small>
-            <Pointer pointerType="button">Contact</Pointer>
+            <Pointer pointerType="button" 
+                     background="var(--Orange)" 
+                     secondary="var(--White)">Contact</Pointer>
         </StyledFooter>
     )
 }

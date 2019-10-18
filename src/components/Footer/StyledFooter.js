@@ -23,9 +23,12 @@ export const StyledFooter = styled.footer`
         font-size: 0.625rem;
         margin-left: 0.5rem;
 
-        @media screen and (min-width: 767px){
+        @media screen and (min-width: 576px){
             font-size: 0.75rem;
-            margin-left: 0rem;
+        }
+
+        @media screen and (min-width: 767px){
+            margin-left: 0;
         }
 
         
